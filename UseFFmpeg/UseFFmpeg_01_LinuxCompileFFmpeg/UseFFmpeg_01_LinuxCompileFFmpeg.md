@@ -45,25 +45,15 @@ b)   编写CMakeLists.txt：
 
 ```cmake
 project(Use_FFmpeg_01)
-
 cmake_minimum_required(VERSION 3.16)
 
- 
-
 set(CMAKE_CXX_STANDARD 11)
-
 set(CMAKE_PREFIX_PATH /usr/local/ffmpeg/include)
 
- 
-
 include_directories(/usr/local/ffmpeg/include)
-
 link_libraries(/usr/local/ffmpeg/lib)
 
- 
-
 add_executable(Use_FFMpeg use_ffmpeg.cpp)
-
 target_link_libraries(Use_FFMpeg avcodec avutil swresample pthread)
 ```
 
@@ -77,9 +67,7 @@ target_link_libraries(Use_FFMpeg avcodec avutil swresample pthread)
 
 ```
 undefined reference to ‘pthread_once’
-
 undefined reference to ‘swr_close’
-
 undefined reference to ‘av_log’
 ```
 
