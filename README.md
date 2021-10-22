@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to lanseie's Pages
 
-You can use the [editor on GitHub](https://github.com/lanseie/lanseie.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+这里是我的外挂记忆区，随手记录任何学到的知识。随时手敲，可能存在谬误，请多指教o/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### UseFFmpeg
 
-```markdown
-Syntax highlighted code block
+Step 01: [Compile FFmpeg demo in Linux](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFmpeg_01_LinuxCompileFFmpeg/UseFFmpeg_01_LinuxCompileFFmpeg.md)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lanseie/lanseie.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
