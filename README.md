@@ -6,7 +6,7 @@
 
 ### UseFFmpeg
 
-Step 01: [Compile FFmpeg demo in Linux](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFmpeg_01_LinuxCompileFFmpeg/UseFFmpeg_01_LinuxCompileFFmpeg.md)
+Step 01: [Compile FFmpeg demo in Linux](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFmpeg_01_LinuxCompileFFmpeg/_posts/UseFFmpeg_01_LinuxCompileFFmpeg.md)
 
 
 

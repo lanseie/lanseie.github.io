@@ -32,21 +32,29 @@ gem sources -l
 
 #### 3. 安装子页面
 
-​	参考Github标准文档，在已有的lanseie.github.io工程文件夹中创建两级子目录：UseFFmpeg\UseFFmpeg_01_LinuxCompileFFmpeg。
+​	a) 参考Github标准文档，在已有的lanseie.github.io工程文件夹中创建两级子目录：UseFFmpeg\UseFFmpeg_01_LinuxCompileFFmpeg。
 
-​	然后在第一级子目录UseFFmpeg中打开cmd命令行，运行:
+​	b) 在第一级子目录UseFFmpeg中打开cmd命令行，运行:
 
 ​	`jekyll new UseFFmpeg_01_LinuxCompileFFmpeg --skip-bundle`
 
 ​	就会在这里产生初始的页面内容。
 
-​	再cd到刚才生成的子目录，运行`bundle install` 。但实际本地预览失败了，报错：
+​	c) 拷贝主页已有的_config.yml，运行命令：jekyll server 出现报错：
+
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/theme.rb:82:in `rescue in gemspec': The jekyll-theme-architect theme could not be found. (Jekyll::Errors::MissingDependencyException)
+
+​    d) 原因是选定的theme没找到。执行：gem install jekyll-theme-architect安装成功。然而再执行还是失败
+
+
+
+​	e) 再cd到刚才生成的子目录，运行`bundle install` 。但实际本地预览失败了，报错：
 
 C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-4.2.1/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError)
 
-​	直接在子目录下增加修改_config.yml并增加主题、预览子目录下的404.html，发现主题生效了。
+​	f) 直接在子目录下增加修改_config.yml并增加主题、预览子目录下的404.html，发现主题生效了。
 
-​	于是直接在根目录 lanseie.github.io 的README.md中添加导向子页面的链接：
+​	g) 于是直接在根目录 lanseie.github.io 的README.md中添加导向子页面的链接：
 
 ​	[true subpage](https://lanseie.github.io/UseFFmpeg/UseFFmpeg_01_LinuxCompileFFmpeg/index.markdown) 
 
