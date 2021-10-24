@@ -20,7 +20,7 @@
 
     比如下图就显示了我本机支持的编码器。libx265只是没截出来，本地实际是支持的。
 
-    ![image-20211025004719356](C:\Users\lovig\AppData\Roaming\Typora\typora-user-images\image-20211025004719356.png)
+    ![image-20211025004719356](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFmpeg_04_Video_Encode/image-20211025004719356.png)
 
  2. 创建解码器 AVCodecContext * = avcodec_alloc_context3(AVCodec *);
 
@@ -86,11 +86,11 @@
  2. 送帧编码
 
      	1. avcodec_send_frame(AVCodecContext *, AVFrame *)
-     	2. while (ret >= 0) 循环取包
-          	1. ret = avcodec_receive_packet(AVCodecContext *, AVPacket *)
-          	2. 如果返回码等于AVERROR(EAGAIN)或AVERROR_EOF，说明读完数据、需要退出while
-          	3. 否则将包数据写入${编码视频文件}
-          	4. av_packet_unref 释放包
+          	2. while (ret >= 0) 循环取包
+              	1. ret = avcodec_receive_packet(AVCodecContext *, AVPacket *)
+              	2. 如果返回码等于AVERROR(EAGAIN)或AVERROR_EOF，说明读完数据、需要退出while
+              	3. 否则将包数据写入${编码视频文件}
+              	4. av_packet_unref 释放包
 
 ##### 	释放资源
 
