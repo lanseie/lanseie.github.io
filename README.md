@@ -10,6 +10,10 @@ Step 01: [Compile FFmpeg demo in Linux](https://github.com/lanseie/lanseie.githu
 
 Step 02: [Compile FFmpeg demo in Windows+CLion](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFmpeg_02_WindowsCompileFFmpeg/UseFFmpeg_02_WindowsCompileFFmpeg.md)
 
+Step 03: [Demuxing and Decoding in FFmpeg](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFMpeg_03_Demuxing_And_Decoding/UseFFMpeg_03_Demuxing_And_Decoding.md)
+
+
+
 学习搭建子页面，该页面施工中
 
 [true subpage](https://lanseie.github.io/UseFFmpeg/UseFFmpeg_01_LinuxCompileFFmpeg/index.markdown)
