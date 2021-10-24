@@ -12,6 +12,8 @@ Step 02: [Compile FFmpeg demo in Windows+CLion](https://github.com/lanseie/lanse
 
 Step 03: [Demuxing and Decoding in FFmpeg](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFmpeg_03_Demuxing_And_Decoding/UseFFmpeg_03_Demuxing_And_Decoding.md)
 
+Step 04: [UseFFmpeg_04_Video_Encode.md](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFmpeg_04_Video_Encode/UseFFmpeg_04_Video_Encode.md)
+
 
 
 学习搭建子页面，该页面施工中
