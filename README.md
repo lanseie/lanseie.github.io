@@ -10,7 +10,7 @@ Step 01: [Compile FFmpeg demo in Linux](https://github.com/lanseie/lanseie.githu
 
 Step 02: [Compile FFmpeg demo in Windows+CLion](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFmpeg_02_WindowsCompileFFmpeg/UseFFmpeg_02_WindowsCompileFFmpeg.md)
 
-Step 03: [Demuxing and Decoding in FFmpeg](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFMpeg_03_Demuxing_And_Decoding/UseFFMpeg_03_Demuxing_And_Decoding.md)
+Step 03: [Demuxing and Decoding in FFmpeg](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFmpeg_03_Demuxing_And_Decoding/UseFFmpeg_03_Demuxing_And_Decoding.md)
 
 
 
