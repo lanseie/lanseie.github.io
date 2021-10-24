@@ -1,4 +1,4 @@
-## UseFFmpeg-Linux下的视频解析和解码
+## UseFFmpeg-视频解析和解码
 
 ### 1. 解码范例
 
