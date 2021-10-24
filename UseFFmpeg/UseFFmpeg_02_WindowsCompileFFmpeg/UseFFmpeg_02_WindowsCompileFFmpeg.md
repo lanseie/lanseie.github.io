@@ -39,4 +39,5 @@ target_link_libraries(UseFFmpeg_Win avcodec avutil swresample)
 
 直接运行，居然通过了：
 
+![WindowsRunningRes.png](https://github.com/lanseie/lanseie.github.io/blob/main/UseFFmpeg/UseFFmpeg_02_WindowsCompileFFmpeg/WindowsRunningRes.png)
 ​                               
