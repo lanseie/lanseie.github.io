@@ -10,7 +10,7 @@
 
 1.  avformat_open_input 根据输入文件，初始化AVFormatContext结构体
 
-      假如是直接内存中存储的stream码流、不是url或者文件，可以用av_parser_parse2接口直接把AVPacket解析出来，然后继续send_packet。
+      假如是直接在内存中存储的stream码流、不是url或者文件，可以用av_parser_parse2接口直接把AVPacket解析出来，然后继续send_packet。
       此时就不avformat_open_input了，而是应该av_parser_init初始化一个解析器。
       详细的做法可以参考 doc/examples/decode_video.c
 
